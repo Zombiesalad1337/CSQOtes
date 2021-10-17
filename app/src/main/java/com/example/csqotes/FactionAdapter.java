@@ -1,6 +1,7 @@
 package com.example.csqotes;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,11 +42,14 @@ public class FactionAdapter extends ArrayAdapter<Faction> {
 
         factionImage.setImageResource(faction.getImageId());
         factionName.setText(faction.getFactionName());
+//        factionName.setTextColor(Color.parseColor("#FFFFFF"));
 
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(itemHeightPx,itemHeightPx);
         gridItemView.setLayoutParams(layoutParams);
 
         gridItemView.setBackgroundColor(faction.getBGColorId());
+
+
 
         return gridItemView;
     }

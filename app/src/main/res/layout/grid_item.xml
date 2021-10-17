@@ -23,7 +23,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="faction">
+        android:fontFamily="@font/cs_regular"
+        android:textSize="32sp"
+        android:layout_alignBottom="@+id/faction_image"
+        android:paddingBottom="16dp"
+        android:textColor="@color/white">
 
     </TextView>
 
