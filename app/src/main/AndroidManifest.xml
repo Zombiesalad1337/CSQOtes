@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSQOtes">
         <activity
+            android:name=".SWATActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeparatistActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SealActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SASActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PirateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PhoenixActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EliteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IDFActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GIGNActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FBIActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BalkanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AnarchistActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/AppTheme.Dark.NoActionBar">

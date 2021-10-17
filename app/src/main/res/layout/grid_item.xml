@@ -2,9 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.csqotes.MainActivity">
 
 
@@ -13,8 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:scaleType="centerCrop"
-        >
+        android:scaleType="centerCrop">
 
     </ImageView>
 
@@ -22,12 +21,12 @@
         android:id="@+id/faction_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/faction_image"
         android:layout_centerInParent="true"
         android:fontFamily="@font/cs_regular"
-        android:textSize="32sp"
-        android:layout_alignBottom="@+id/faction_image"
         android:paddingBottom="16dp"
-        android:textColor="@color/white">
+        android:textColor="@color/white"
+        android:textSize="32sp">
 
     </TextView>
 
