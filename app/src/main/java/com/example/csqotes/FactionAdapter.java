@@ -45,8 +45,6 @@ public class FactionAdapter extends ArrayAdapter<Faction> {
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(itemHeightPx, itemHeightPx);
         gridItemView.setLayoutParams(layoutParams);
 
-        gridItemView.setBackgroundColor(faction.getBGColorId());
-
 
         return gridItemView;
     }
