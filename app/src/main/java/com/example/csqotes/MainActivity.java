@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         DisplayMetrics outMetrics = new DisplayMetrics();
         display.getMetrics(outMetrics);
 
-        String[] factionNames = new String[]{"Anarchist", "Balkan", "FBI", "GIGN", "IDF", "Elite", "Phoenix", "Pirate", "SAS", "Seal", "Separatist", "Swat"};
+        String[] factionNames = new String[]{"Anarchist", "Balkan", "FBI", "GIGN", "IDF", "Elite", "Phoenix", "Pirate", "SAS", "SEAL", "Separatist", "Swat"};
         Integer[] factionImages = new Integer[]{R.drawable.anarchist, R.drawable.balkan, R.drawable.fbi, R.drawable.gign, R.drawable.idf, R.drawable.leet, R.drawable.phoenix, R.drawable.pirate, R.drawable.sas, R.drawable.seal, R.drawable.separatist, R.drawable.swat};
 //        Integer[] factionColor = new Integer[]{R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500, R.color.purple_500};
 

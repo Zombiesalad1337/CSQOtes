@@ -11,39 +11,63 @@
         android:theme="@style/Theme.CSQOtes">
         <activity
             android:name=".SWATActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="SWAT"/>
         <activity
             android:name=".SeparatistActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="Separatist"/>
         <activity
             android:name=".SealActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="SEAL"/>
         <activity
             android:name=".SASActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="SAS"/>
         <activity
             android:name=".PirateActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="Pirate"/>
         <activity
             android:name=".PhoenixActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="Phoenix"/>
         <activity
             android:name=".EliteActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Elite"
             android:exported="true" />
         <activity
             android:name=".IDFActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="IDF"
             android:exported="true" />
         <activity
             android:name=".GIGNActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="GIGN"/>
         <activity
             android:name=".FBIActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="FBI"/>
         <activity
             android:name=".BalkanActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Balkan"
             android:exported="true" />
         <activity
             android:name=".AnarchistActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Anarchist"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
