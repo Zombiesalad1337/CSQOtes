@@ -27,21 +27,20 @@ public class PirateActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"This island's not big enough for all of us.", "Run now while you have the chance.",
+                "Show your face so I can cut it.", "So that we may be free.", "Now, let's get them off our island.",
+                "Now let's destroy the mill.", "The truck is crashed, let's go.", "Now is the time.",
+                "Talk is over, we have tried. Now is the time for action.", "It's time to free us from our bonds.",
+                "We must push them from our lands.", "It is time to do our part.", "Grab your stuff and let's go.",
+                "Don't forget the plan.", "Let's go blow that truck.", "We are ready, let's go.", "Time to go to work in the mill.", };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.pirate_onarollbrag03, R.raw.pirate_onarollbrag12, R.raw.pirate_onarollbrag13,
+                R.raw.pirate_radio_locknload01, R.raw.pirate_radio_locknload02, R.raw.pirate_radio_locknload03,
+                R.raw.pirate_radio_locknload04, R.raw.pirate_radio_locknload05, R.raw.pirate_radio_locknload06,
+                R.raw.pirate_radio_locknload07, R.raw.pirate_radio_locknload08, R.raw.pirate_radio_locknload09,
+                R.raw.pirate_radio_locknload10, R.raw.pirate_radio_locknload11, R.raw.pirate_radio_locknload12,
+                R.raw.pirate_radio_locknload13, R.raw.pirate_radio_locknload14
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

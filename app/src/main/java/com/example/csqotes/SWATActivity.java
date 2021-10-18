@@ -29,21 +29,12 @@ public class SWATActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"Let's go.", "Grab your gear, let's go.", "Ride along.",
+                "Let's move out.", "Be careful, let's all make it home tonight.",};
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.swat_radiobotstart01, R.raw.swat_radiobotstart02,
+                R.raw.swat_radiobotstart03, R.raw.swat_radiobotstart04, R.raw.swat_radiobotstart05
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

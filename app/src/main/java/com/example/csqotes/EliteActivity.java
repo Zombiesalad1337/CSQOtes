@@ -28,21 +28,17 @@ public class EliteActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"So that we may be free.", "We will defeat the mercenaries.",
+                "Be safe, let's go my friends.", "Take care of yourselves.", "Let us go.", "We will make them cry.",
+                "We will defeat the mercenaries.", "We will drive them from our lands.", "We shall rule the day.",
+                "They shall regret this day.",
+        };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.elite_radio_locknload01, R.raw.elite_radio_locknload02,
+                R.raw.elite_radio_locknload03, R.raw.elite_radio_locknload04, R.raw.elite_radio_locknload05,
+                R.raw.elite_radio_locknload06, R.raw.elite_radio_locknload07, R.raw.elite_radio_locknload08,
+                R.raw.elite_radio_locknload09, R.raw.elite_radio_locknload10
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

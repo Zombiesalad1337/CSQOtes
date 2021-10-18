@@ -27,21 +27,23 @@ public class SeparatistActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"They can't stop the bomb now!", "Yes! Yes!", "The world is ours.",
+                "Our enemies tremble!", "Our guns shall bring us victory!", "Follow me my friend.",
+                "Let's go, my friends.", "So that we may be free.", "To victory.", "Be safe my friends.",
+                "Let us be quick.", "Let us go.", "Let's teach these dogs a lesson.", "May we be safe from evil.",
+                "They shall regret this day.", "The pigs are shooting at me.", "They think they can kill me.",
+                "With much thanks!", };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.separatist_bombtickingdown03, R.raw.separatist_onarollbrag01,
+                R.raw.separatist_onarollbrag03, R.raw.separatist_onarollbrag04, R.raw.separatist_onarollbrag05,
+                R.raw.separatist_radio_followme04, R.raw.separatist_radio_letsgo05, R.raw.separatist_radio_locknload01,
+                R.raw.separatist_radio_locknload02, R.raw.separatist_radio_locknload03,
+                R.raw.separatist_radio_locknload04, R.raw.separatist_radio_locknload05,
+                R.raw.separatist_radio_locknload06, R.raw.separatist_radio_locknload07,
+                R.raw.separatist_radio_locknload10, R.raw.separatist_radio_takingfire05,
+                R.raw.separatist_radio_takingfire07, R.raw.separatist_thanks02
+
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

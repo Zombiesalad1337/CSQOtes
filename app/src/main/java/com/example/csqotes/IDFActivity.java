@@ -27,21 +27,19 @@ public class IDFActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"Is this your first time out?", "We must defeat the enemy, not ourselves.",
+                "Our mission is simple, take them out.", "Grab your gear and let's go.", "Lock and load.",
+                "Let's move out.", "Let's get this done.", "Do not be afraid, let's go.",
+                "This is what we're trained for.", "This is our day.", "Let's get this over with.",
+                "This is it my friends.", "Form up. Let's go.", "Let's get this done.", "Let's go.",
+        };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[]{R.raw.idf_friendlyfire08, R.raw.idf_killedfriend05, R.raw.idf_radio_locknload01,
+                R.raw.idf_radio_locknload02, R.raw.idf_radio_locknload03, R.raw.idf_radio_locknload04,
+                R.raw.idf_radio_locknload05, R.raw.idf_radio_locknload06, R.raw.idf_radio_locknload07,
+                R.raw.idf_radio_locknload08, R.raw.idf_radio_locknload09, R.raw.idf_radio_locknload10,
+                R.raw.idf_radio_locknload11, R.raw.idf_radio_locknload12, R.raw.idf_radio_locknload13
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

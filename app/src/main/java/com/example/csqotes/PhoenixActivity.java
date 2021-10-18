@@ -27,21 +27,23 @@ public class PhoenixActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"You are stupid to think you will win.", "You think you can kill us!?!?",
+                "We cannot be killed!", "I fear no man!", "We will stomp your little skulls.", "Run little girls, run!",
+                "Where are the real men?!?", "You will cry like babies before you die.", "We will dance on your graves.",
+                "We must win.", "Together we can do this.", "We must walk together .", "Let us go.",
+                "We will make them regret this day.", "It is time now my brothers.", "Now is the time.",
+                "No more talking. Now we fight!", "This is our fight.", "This is what we've been working for.",
+                "Guys I tell you: We kill them all!", "This is easy, we kill them and then we go home.",};
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.phoenix_onarollbrag02, R.raw.phoenix_onarollbrag04,
+                R.raw.phoenix_onarollbrag05, R.raw.phoenix_onarollbrag08, R.raw.phoenix_onarollbrag10,
+                R.raw.phoenix_onarollbrag11, R.raw.phoenix_onarollbrag13, R.raw.phoenix_onarollbrag14,
+                R.raw.phoenix_onarollbrag15, R.raw.phoenix_radio_locknload01, R.raw.phoenix_radio_locknload02,
+                R.raw.phoenix_radio_locknload03, R.raw.phoenix_radio_locknload04, R.raw.phoenix_radio_locknload05,
+                R.raw.phoenix_radio_locknload06, R.raw.phoenix_radio_locknload07, R.raw.phoenix_radio_locknload08,
+                R.raw.phoenix_radio_locknload09, R.raw.phoenix_radio_locknload10, R.raw.phoenix_radio_locknload11,
+                R.raw.phoenix_radio_locknload12
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

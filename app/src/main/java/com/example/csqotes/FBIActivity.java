@@ -27,21 +27,13 @@ public class FBIActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"Cowboy up and let's go.", "Break time's over ladies, let's go.",
+                "Come on, let's get this started.", "This is it, we're going in.", "Safety people, safety.",
+                "Let's make the bureau proud!",
+        };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.fbi_radiobotstart03, R.raw.fbi_radiobotstart06, R.raw.fbi_radiobotstart07,
+                R.raw.fbi_radiobotstart08, R.raw.fbi_radiobotstart10, R.raw.fbi_radiobotstart11};
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

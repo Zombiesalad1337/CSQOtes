@@ -27,21 +27,13 @@ public class GIGNActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"Let's go.", "Lock n load.", "Let's go.", "Grab your gear, and let's go.",
+                "Lock n load.", "Let's get this done.", "Let's move out.", };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.gign_radio_locknload01, R.raw.gign_radio_locknload02,
+                R.raw.gign_radio_locknload03, R.raw.gign_radio_locknload04, R.raw.gign_radio_locknload05,
+                R.raw.gign_radio_locknload06, R.raw.gign_radio_locknload07
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 

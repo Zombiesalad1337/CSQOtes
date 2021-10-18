@@ -27,21 +27,25 @@ public class SealActivity extends AppCompatActivity {
             }
         };
 
-        String[] arrQuote = new String[] {"We showed them who's in charge!",
-                "Let's go kick some butt!",
-                "I know how much you hate 'em so let's do this!",
-                "Let's show them we mean business.",
-                "Let's teach 'em a lesson.",
-                "You guys ready for this?",
-                "Ready? This is gonna be gnarly.",
-                "The time for talks's over. Let's do this.",
-                "Hmm still seems like a good idea. Right guys?",
-                "Remember, keep the hostages safe!"};
+        String[] arrQuote = new String[] {"The best of the best!", "Good job everyone.",
+                "Nice work people! Smoke 'em if you got 'em.", "That was like shooting fish in a barrel.",
+                "Let's go.", "Grab your gear, let's go.", "Lock n load.", "Let's move out.",
+                "Move out.", "Let's get this done.", "This day right here is where we end this.",
+                "Alright gentlemen, this is it.", "Keep ready, this is a free fire zone.",
+                "Let's go earn our pay.", "Time to earn our stories.",
+                "Let's do this and get back in time for chow.", "We are Oscar Mike.",
+                "Let's go have some fun.", "We are good to go.", "Let's go everyone.", "Stay frosty.",
+        };
 
-        Integer[] audioIds = new Integer[] {R.raw.anarchist_radiobotendclean02, R.raw.anarchist_radio_locknload01,
-                R.raw.anarchist_radio_locknload02, R.raw.anarchist_radio_locknload03, R.raw.anarchist_radio_locknload04,
-                R.raw.anarchist_radio_locknload05, R.raw.anarchist_radio_locknload06, R.raw.anarchist_radio_locknload07,
-                R.raw.anarchist_radio_locknload08, R.raw.anarchist_radio_locknload09};
+        Integer[] audioIds = new Integer[] {R.raw.seal_onarollbrag08, R.raw.seal_radiobotendclean01,
+                R.raw.seal_radiobotendclean03, R.raw.seal_radiobotendclean04, R.raw.seal_radio_locknload01,
+                R.raw.seal_radio_locknload02, R.raw.seal_radio_locknload03, R.raw.seal_radio_locknload04,
+                R.raw.seal_radio_locknload05, R.raw.seal_radio_locknload06, R.raw.seal_radio_locknload07,
+                R.raw.seal_radio_locknload08, R.raw.seal_radio_locknload09, R.raw.seal_radio_locknload10,
+                R.raw.seal_radio_locknload11, R.raw.seal_radio_locknload12, R.raw.seal_radio_locknload13,
+                R.raw.seal_radio_locknload14, R.raw.seal_radio_locknload15, R.raw.seal_radio_locknload16,
+                R.raw.seal_radio_locknload17,
+        };
 
         ArrayList<Quote> quotes = new ArrayList<>();
 
