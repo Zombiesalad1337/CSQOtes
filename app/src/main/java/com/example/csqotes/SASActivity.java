@@ -30,6 +30,7 @@ public class SASActivity extends AppCompatActivity {
         String[] arrQuote = new String[] {"At least we stopped 'em boys, at least we stopped 'em.",
                 "You're champion sonny.", "You're a champion!", "All right!  All right!",
                 "Eh You're right on, you're right on!", "We took the piss out of 'em.",
+                "Eh we're really laying into them.",
                 "We are in the clear lads.", "Easy peasy lemon squeezy.",
                 "Ah it's a piece of cake, so it is.", "Eh we gave them a spanking!",
                 "Bingo bango bongo bish bash bosh!", "Oh come on, chop chop.",
@@ -50,6 +51,7 @@ public class SASActivity extends AppCompatActivity {
 
         Integer[] audioIds = new Integer[] {R.raw.sas_lastmanstanding02, R.raw.sas_niceshot12,
                 R.raw.sas_onarollbrag03, R.raw.sas_onarollbrag04, R.raw.sas_onarollbrag06, R.raw.sas_onarollbrag08,
+                R.raw.sas_onarollbrag09,
                 R.raw.sas_onarollbrag11, R.raw.sas_onarollbrag13, R.raw.sas_onarollbrag14,
                 R.raw.sas_radiobotendsolid01, R.raw.sas_radiobotendsolid07, R.raw.sas_radiobottime01,
                 R.raw.sas_radio_enemyspotted05, R.raw.sas_radio_letsgo05, R.raw.sas_radio_locknload01,
